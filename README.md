@@ -122,11 +122,21 @@ MoviesDF = pd.concat([MoviesDF, pd.DataFrame(new_movie)], ignore_index=True)
 2. If the movie is present, it will suggest five similar movies.
 3. If the movie is not present, you can input its details manually.
 
-## Example usage
- - movie within the datast(IDM.png)
-- movie added to the data(MRS2.py)
-   
+## Example Usage  
+- **Movie within the dataset:**
+  ```python
+  MoviesDF, similarity = RecommendMovies('Avatar', MoviesDF, similarity)
+  MoviesDF.to_csv('MoviesDF.csv', index=False)
+    ``` 
+  ![Movie in dataset](IDM.png)  
 
+- **Movie added to the dataset:**
+  ```python
+  MoviesDF, similarity = RecommendMovies('Oppenheimer', MoviesDF, similarity)
+  MoviesDF.to_csv('MoviesDF.csv', index=False)
+    ```
+  
+![Movie added](AM.png)  
 
 ## Future Improvements
 - Develop a **user-based collaborative filtering** model.
