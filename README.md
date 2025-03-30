@@ -138,9 +138,9 @@ MoviesDF = pd.concat([MoviesDF, pd.DataFrame(new_movie)], ignore_index=True)
   
 ![Movie added](AM.png)  
 
-## Future Improvements
-- Develop a **user-based collaborative filtering** model.
-- Implement with a **web interface** for improved user experience.
-- Permit users to rate and comment on films.
-- Improve vectorization methods by utilizing **TF-IDF**.
+## Future Improvements  
+- Implement a **user-based collaborative filtering** model.  
+- Integrate a **web interface** for better user experience.  
+- Allow users to rate and review movies.  
+- Enhance vectorization techniques using **TF-IDF**.  
 
