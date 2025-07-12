@@ -2,6 +2,24 @@
 
 ## Time Line           January 2024 -  April 2024
 
+---
+
+## 📑 Table of Contents
+
+1. [Introduction](#introduction)
+2. [Recommendation Techniques](#recommendation-techniques)
+
+   1. [Content-Based Filtering](#content-based-filtering)
+   2. [Collaborative Filtering](#collaborative-filtering)
+   3. [Hybrid Filtering](#hybrid-filtering)
+3. [Features](#features)
+4. [Implementation Details](#implementation-details)
+5. [How to Use](#how-to-use)
+6. [Example Usage](#example-usage)
+7. [Future Improvements](#future-improvements)
+
+---
+
 ## Introduction
 Recommendation system is a subcategory of information filtering system that recommends appropriate items to users according to their choice. There are three broad categories of filtering:
 
