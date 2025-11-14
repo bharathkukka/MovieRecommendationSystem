@@ -141,7 +141,8 @@ MoviesDF = pd.concat([MoviesDF, pd.DataFrame(new_movie)], ignore_index=True)
   MoviesDF, similarity = RecommendMovies('Avatar', MoviesDF, similarity)
   MoviesDF.to_csv('MoviesDF.csv', index=False)
     ``` 
-  ![Movie in dataset](IDM.png)  
+  ![Movie in dataset](IDM.png)
+  
 
 - **Movie added to the dataset:**
   ```python
