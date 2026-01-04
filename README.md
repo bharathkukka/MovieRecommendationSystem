@@ -1,4 +1,4 @@
-# Movie Recommendation System
+# *Movie Recommendation System*
 
 ## Time Line           January 2024 -  April 2024
 
